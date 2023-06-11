@@ -140,19 +140,19 @@ section {
 .watermark:nth-child(2) {
   position: fixed;
   margin: 0em auto;
-  font-size: 27rem;
+  font-size: 25rem;
   font-weight: bolder;
   font-family: nunito;
   opacity: 0.03;
   overflow: hidden;
   bottom: 0em;
-  right: -1em;
+  right: -0.7em;
   z-index: -1000;
 }
 .watermark:nth-child(3) {
   position: fixed;
   margin: 0em auto;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: bolder;
   font-family: nunito;
   opacity: 0.03;
@@ -427,6 +427,8 @@ article li {
 .tags {
   display: flex;
   flex-direction: column;
+  margin-top:0.5em;
+  margin-bottom: 0.5em;
 }
 .tags > span {
   margin-right: 1em;
@@ -506,3 +508,50 @@ footer {
   font-size: 0.8em;
   text-align: center;
 }
+
+/*  
+#projects-section article > section {
+  font-family: "roboto mono", monospace;
+  font-weight: light;
+  padding: 5px;
+  border: 2px solid var(--light-accent-color);
+  box-shadow: 5px 5px 0px 2px var(--light-accent-color);
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+#projects-section article > section .project_container {
+  display: flex;
+  
+
+  justify-content: center;
+  align-items: center;
+}
+#projects-section article > section .tags {
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+#projects-section article > section .tags span {
+  white-space: nowrap;
+  padding: 2px 6px;
+}
+
+.tags > span {
+  margin-right: 1em;
+  font-size: 0.7em;
+  opacity: 0.5;
+  padding: 0.3em 0.7em;
+  font-family: "roboto mono";
+}
+.tags > span:hover {
+  opacity: 0.9;
+}
+#projects-wrapper > div > span {
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 50%;
+  margin: 1em auto;
+} */
