@@ -188,7 +188,7 @@ section {
   animation-name: menu;
   animation-duration: 0.8s;
   animation-timing-function: ease-out;
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 #menu a {
@@ -228,14 +228,14 @@ section h2 {
   color: var(--text-title-color);
 }
 #about-me-intro-section {
-  font-size: 0.8em;
-  width: 400px;
+  font-size: 1em;
+  width: 50%;
   opacity: 0.8;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 #about-me-intro-section p {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 #about-me-intro-section a {
